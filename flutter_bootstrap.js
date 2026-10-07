@@ -37,7 +37,7 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"1527ae0ec577a4ef50e65f6fefcfc1326707d9bf","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
 // The builder stamps this path; development keeps ordinary local paths.
-const releasePath = '__releases/709ebb5d75a455cbdc94514a30ffbcf9a92961a60a3c9bb6df7bbf87b14d79fc/';
+const releasePath = '__releases/1aa7a2d3709bf4a17fc156f76d99d629e041088df7ca79b178d7bae204d5989e/';
 const releaseBase = releasePath.startsWith('__RELEASE_') ? '' : releasePath;
 const flutterConfiguration = {
   entrypointBaseUrl: releaseBase,

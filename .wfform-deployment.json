@@ -1,8 +1,9 @@
 {
   "format": 1,
-  "release": "709ebb5d75a455cbdc94514a30ffbcf9a92961a60a3c9bb6df7bbf87b14d79fc",
+  "release": "1aa7a2d3709bf4a17fc156f76d99d629e041088df7ca79b178d7bae204d5989e",
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CNAME": "da3eb325f021604c901ebfe514ca1370b305a99a2088ab7ff419e57889840c2c",
     "__releases/1aa7a2d3709bf4a17fc156f76d99d629e041088df7ca79b178d7bae204d5989e/about.html": "259b765addfc8e2245589eed4d5af19844e3239f99d5387346c8d8fdaba86e05",
     "__releases/1aa7a2d3709bf4a17fc156f76d99d629e041088df7ca79b178d7bae204d5989e/assets/AssetManifest.bin": "a872aa21ddb830c7e1d306c5b635627b41db5bd7196ed0b496933d3d6d5f0350",
     "__releases/1aa7a2d3709bf4a17fc156f76d99d629e041088df7ca79b178d7bae204d5989e/assets/AssetManifest.bin.json": "a5ff45f31e861103540be3f6be855174d1a4709ce612623a6f57841e6be3bd6b",
@@ -79,7 +80,7 @@
     "__releases/709ebb5d75a455cbdc94514a30ffbcf9a92961a60a3c9bb6df7bbf87b14d79fc/release.json": "60731f1f360508689ce72368bb1f49bb9432c6d2626cc6f7529571ad481316b9",
     "__releases/709ebb5d75a455cbdc94514a30ffbcf9a92961a60a3c9bb6df7bbf87b14d79fc/robots.txt": "4090fa2d4633a399904d64089df4c82d2d73cbaa7c7f2b8979fe5d1944e0ad24",
     "__releases/709ebb5d75a455cbdc94514a30ffbcf9a92961a60a3c9bb6df7bbf87b14d79fc/sitemap.xml": "483a5362f5eca00fd40509cb040028f2dba4bcf42b24ee6a3c849adb0d5a9fd4",
-    "about.html": "c4f11166021f111137ea1982af952e13a3c7afb24fbb2d96374bbe63615c769c",
+    "about.html": "259b765addfc8e2245589eed4d5af19844e3239f99d5387346c8d8fdaba86e05",
     "assets/AssetManifest.bin": "a872aa21ddb830c7e1d306c5b635627b41db5bd7196ed0b496933d3d6d5f0350",
     "assets/AssetManifest.bin.json": "a5ff45f31e861103540be3f6be855174d1a4709ce612623a6f57841e6be3bd6b",
     "assets/FontManifest.json": "3d1157b58e39e14613d3a519e8aae0d0e10d89f681c0ce8040f5bed7724c8583",
@@ -106,17 +107,17 @@
     "canvaskit/chromium/canvaskit.wasm": "de186b1791a7de02d9cafe60ab99ff9fe018e1ae53d9c0e190b7737464d49d17",
     "favicon.png": "7c4096aa4b30ceeef3fd4985c9035d406bcc0852d92a256dd1c9c4f9de1cd352",
     "flutter.js": "ed5d5920a9868a8b93d790a9aae4165a62962728d4abbec5a14f600d73c53bd3",
-    "flutter_bootstrap.js": "21e3659caaee7c6ce47f79c0b34f5bf160883e9aec4d6557547cadb3ccb1a411",
+    "flutter_bootstrap.js": "e4f1486fa6974678a0a39ccbd963980eb84bb818887e0b24734a88d01d039a81",
     "icons/Icon-192.png": "db33ddddb8e6203d73f2144f0ea37acd77fab5484cdf806f95a171321caa86d8",
     "icons/Icon-512.png": "77934f4051be669c304cdb2ca56f50583a9d586dbde5f59a5f33642f05aeedc7",
     "icons/Icon-maskable-192.png": "db33ddddb8e6203d73f2144f0ea37acd77fab5484cdf806f95a171321caa86d8",
     "icons/Icon-maskable-512.png": "77934f4051be669c304cdb2ca56f50583a9d586dbde5f59a5f33642f05aeedc7",
-    "index.html": "e12ca39aaf9ebe1f9e06da18efd05f34b3ea404a17c85d4690df3df9acee6c89",
+    "index.html": "3e1966470d8cace39c2e018ee92ebde998ad03baf0d6566761071040f8cb3969",
     "main.dart.js": "eeaeeeeb7fccd1fe3a14c885ba279fef23a460adc96f6d5a69fd4a7a8dd8621e",
     "manifest.json": "de6a1e44decd5945a2a3a48ca3e1b266d79acc0f2f8e1071a2636f7d7051e5ee",
-    "release.json": "60731f1f360508689ce72368bb1f49bb9432c6d2626cc6f7529571ad481316b9",
-    "robots.txt": "4090fa2d4633a399904d64089df4c82d2d73cbaa7c7f2b8979fe5d1944e0ad24",
-    "service_worker.js": "7d0f87a182bd03d2be2ca028c8410874aa9c372d3af72d26f2ded53ca1556c74",
-    "sitemap.xml": "483a5362f5eca00fd40509cb040028f2dba4bcf42b24ee6a3c849adb0d5a9fd4"
+    "release.json": "88aba7d3893cc1edffbf29abfe74fb43504887b84334ba02dc8a9ed6433fa94a",
+    "robots.txt": "0976bc84b0bd02f77b2c0cdbd9c5be41ce32359e936f482c462962809e8ac8f1",
+    "service_worker.js": "4ed01fa3d5ea0ee979220ae40bd3812bbae219c9608f80958e71d1711a0ae49a",
+    "sitemap.xml": "eb973819dd8f9cbbfa0c95b35c07d9afa05cd8bf311de5d4a834fcc264364688"
   }
 }
