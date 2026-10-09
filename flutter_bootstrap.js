@@ -36,22 +36,23 @@ if (!window._flutter) {
 }
 _flutter.buildConfig = {"engineRevision":"cafcda5721a78a7884db92f13c5e89f7643d52dd","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
-// The builder stamps this path; development keeps ordinary local paths.
-const releasePath = '__releases/f06db063595a2a7c6ea540f186221dc6c6293de40368036b17586d9fec647129/';
-const releaseBase = releasePath.startsWith('__RELEASE_') ? '' : releasePath;
+// Package files stay flat. Only the verified cache identity is content-addressed.
+const releasePath = '005430ac26d6dbf36116d0752e932f885110ced64b3920fa75cc155a9e1f2ea0';
+const buildId = /^[a-f0-9]{64}$/.test(releasePath) ? releasePath : '';
 const flutterConfiguration = {
-  entrypointBaseUrl: releaseBase,
-  assetBase: new URL(releaseBase || './', document.baseURI).href,
-  canvasKitBaseUrl: new URL(releaseBase + 'canvaskit/', document.baseURI).href,
+  entrypointBaseUrl: '',
+  assetBase: new URL('./', document.baseURI).href,
+  canvasKitBaseUrl: new URL('canvaskit/', document.baseURI).href,
 };
-if (releaseBase) {
-  document.documentElement.dataset.release = releaseBase.split('/')[1];
+if (buildId) {
+  document.documentElement.dataset.release = buildId;
   const reportRelease = () => navigator.serviceWorker?.controller?.postMessage({
-    type: 'CLIENT_RELEASE', release: document.documentElement.dataset.release,
+    type: 'CLIENT_RELEASE', release: buildId,
   });
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(reportRelease);
     navigator.serviceWorker.addEventListener('controllerchange', reportRelease);
+    reportRelease();
   }
 }
 function showStartupError(error) {
