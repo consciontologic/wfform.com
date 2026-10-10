@@ -37,7 +37,7 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"cafcda5721a78a7884db92f13c5e89f7643d52dd","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"},{}],"useLocalCanvasKit":true};
 
 // Package files stay flat. Only the verified cache identity is content-addressed.
-const releasePath = '005430ac26d6dbf36116d0752e932f885110ced64b3920fa75cc155a9e1f2ea0';
+const releasePath = 'fcc70cad1c0afe8970283bdab6e6aff2ceac3651480686d2b31aacd3189b881c';
 const buildId = /^[a-f0-9]{64}$/.test(releasePath) ? releasePath : '';
 const flutterConfiguration = {
   entrypointBaseUrl: '',
